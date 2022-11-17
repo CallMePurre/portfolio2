@@ -3,7 +3,7 @@ Title: Home
 Description: This is our index page.
 ---
 
-Home page
+Om mig
 ==========================
 
 Patrik Lindblom är mitt namn och jag är 27 år och bor i Barkarby, Stockholm. Född och uppvuxen i Västerhaninge där jag bodde till jag blev 21 år.<br>
