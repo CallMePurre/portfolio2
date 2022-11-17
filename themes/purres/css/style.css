@@ -21,6 +21,10 @@ html, body {
     height: 100%;
 }
 
+.nav a {
+    color: whitesmoke;
+}
+
 /* Placement */
 
 body {
@@ -30,6 +34,12 @@ body {
 
 .main {
     flex: 1 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.main p {
+    text-align: center;
 }
 
 .header, .footer {
@@ -37,6 +47,11 @@ body {
 }
 
 /* Header */
+
+.header {
+    background-color: #444;
+    
+}
 
 .header, .site-header {
     display: flex;
@@ -62,7 +77,7 @@ body {
 }
 
 .title * {
-    color: #111;
+    color: whitesmoke;
 }
 
 .title p {
