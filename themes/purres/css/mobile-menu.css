@@ -22,11 +22,27 @@
     display: none;
 }
 
+.fa {
+    color: #fff;
+}
+
 @media (max-width: 767px) {
+
+    html, body {
+        overflow-x: hidden;
+      }
+      body {
+        position: relative
+      }
+    .h1 {
+        font-size: 2rem;
+    }
     .header {
         flex-direction: column;
     }
-
+    .logo img {
+        width: 100%;
+    }
     .nav ul {
         flex-direction: column;
         padding-bottom: 1em;

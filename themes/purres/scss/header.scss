@@ -1,0 +1,26 @@
+.header {
+    background-color: #333;
+    width: 100%;
+
+    a,
+    p,
+    h1 {
+        color: #fff;
+    }
+}
+
+.header,
+.site-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hidden {
+    display: none;
+}
+
+.logo img {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}

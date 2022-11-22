@@ -1,0 +1,22 @@
+.footer {
+    padding: 1rem;
+    background-color: $background-alternative-color;
+
+    p {
+        color: $font-alternative-color;
+    }
+
+}
+
+.social {
+    float: right;
+    font-size: $font-size * 2;
+
+    a {
+        text-decoration: none;
+    }
+
+    i {
+        color: $font-alternative-color;
+    }
+}
