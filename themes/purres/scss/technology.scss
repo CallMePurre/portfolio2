@@ -1,0 +1,45 @@
+.tech-container {
+    display: grid;
+    grid-template-columns: 200px 600px;
+    grid-template-rows: 600px;
+    gap: 2em;
+    align-items: center;
+}
+
+.tech-sidebar a {
+    display: block;
+    text-decoration: none;
+    height: 100%;
+    padding: 0.5em 1em;
+}
+
+.tech-sidebar h3 {
+    vertical-align: middle;
+}
+
+.sidebar-content {
+    height: 50px;
+    width: 100%;
+    transition: 0.3s;
+}
+
+.sidebar-content:hover {
+    background-color: rgba(51, 51, 51, 0.7);
+    
+    h3 {
+        color: rgb(255, 255, 255);
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .tech-sidebar {
+        display: none;
+    }
+
+    .tech-container {
+        display: grid;
+        grid-template-columns: 300px;
+        grid-template-rows: 100vh;
+        align-items: start;
+    }
+}

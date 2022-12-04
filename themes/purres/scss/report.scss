@@ -1,0 +1,28 @@
+/* report.scss */
+.grid {
+    display: grid;
+    gap: 1em 1em;
+}
+
+.wrapper h1 {
+    grid-column: span 3;
+    justify-self: center;
+}
+
+.wrapper {
+    max-width: 960px;
+    margin: 0 auto;
+    grid-template-columns: 30% 30% auto;
+    grid-template-rows: 200px 200px 200px 200px 200px 200px;
+}
+
+.kmom-box.project {
+    grid-column: span 3;
+    grid-row: 5 / 7;
+    margin-bottom: 2em;
+}
+
+.kmom-box {
+    border: 3px solid #ccc;
+    padding: 2em;
+}

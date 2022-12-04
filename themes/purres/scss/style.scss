@@ -3,6 +3,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab&display=swap');
 @import 'typography';
 @import 'header';
+@import 'report';
+@import 'technologies';
+@import 'technology';
 @import 'footer';
 @import 'blockquotes';
 @import 'code';
@@ -17,6 +20,7 @@ body {
     display: flex;
     flex-direction: column;
     overflow-x: hidden;
+    
 }
 
 * {
