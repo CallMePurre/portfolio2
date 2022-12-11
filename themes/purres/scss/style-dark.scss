@@ -1,6 +1,6 @@
 @import '../../node_modules/normalize.css/normalize';
-@import 'variables';
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Roboto&family=Roboto+Slab&display=swap');
+@import 'variables-dark';
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab&display=swap');
 @import 'typography';
 @import 'header';
 @import 'report';
@@ -20,7 +20,6 @@ body {
     display: flex;
     flex-direction: column;
     overflow-x: hidden;
-    
 }
 
 * {

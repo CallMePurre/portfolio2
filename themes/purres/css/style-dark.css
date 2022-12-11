@@ -5,7 +5,7 @@
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Roboto&family=Roboto+Slab&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab&display=swap");
 html {
   line-height: 1.15; /* 1 */
   -webkit-text-size-adjust: 100%; /* 2 */
@@ -344,16 +344,16 @@ p {
 }
 
 .content {
-  border: 1px solid #fff;
+  border: 1px solid #292929;
   border-radius: 16px;
   margin-top: 2em;
   margin-bottom: 2em;
   padding: 2em;
-  background-color: #fff;
+  background-color: #292929;
 }
 
 .header {
-  background-color: #0F4628;
+  background-color: #0A0A0A;
   width: 100%;
 }
 .header a,
@@ -397,11 +397,11 @@ p {
   font-size: 1.5rem;
 }
 .nav a:hover {
-  color: #FFD80E;
+  color: #3568F5;
 }
 
 .active a {
-  color: #FFD80E;
+  color: #3568F5;
 }
 
 /* report.scss */
@@ -464,7 +464,7 @@ p {
 }
 
 .grid-item:hover {
-  box-shadow: 0 0 15px 10px rgba(51, 51, 51, 0.7);
+  box-shadow: 0 0 15px 10px rgba(252, 252, 252, 0.7);
 }
 
 .css h2 {
@@ -558,7 +558,7 @@ p {
 }
 
 .sidebar-content:hover {
-  background-color: rgba(51, 51, 51, 0.7);
+  background-color: rgba(252, 252, 252, 0.7);
 }
 .sidebar-content:hover h3 {
   color: rgb(255, 255, 255);
@@ -577,7 +577,7 @@ p {
 }
 .footer {
   padding: 1rem;
-  background-color: #0F4628;
+  background-color: #0A0A0A;
 }
 .footer p {
   color: #fff;
@@ -592,13 +592,13 @@ p {
   color: #fff;
 }
 .social a :hover {
-  color: #FFD80E;
+  color: #3568F5;
 }
 .social i {
   color: #fff;
 }
 .social i :hover {
-  color: #FFD80E;
+  color: #3568F5;
 }
 
 blockquote {
@@ -617,7 +617,7 @@ code {
   font-family: monospace;
   font-size: 0.85rem;
   line-height: 1.9824;
-  color: #000;
+  color: #161616;
 }
 
 pre {
@@ -6753,12 +6753,12 @@ readers do not read off random characters that represent icons */
 }
 
 body {
-  background-color: #E6E6E6;
+  background-color: #1F1F1F;
   display: flex;
   flex-direction: column;
   overflow-x: hidden;
 }
 
 * {
-  color: #000;
+  color: #fff;
 }

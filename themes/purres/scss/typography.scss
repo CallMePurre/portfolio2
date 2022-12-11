@@ -9,20 +9,20 @@ body {
 h1 {
     font-size: 3rem;
     margin-bottom: $text-margin * 2;
-    font-family: $sans-font-family;
+    font-family: $serif-font-family;
 }
 
 h3 {
     font-size: 1.5em;
     margin: 0;
-    font-family: $serif-font-family;
+    font-family: $sans-font-family;
 }
 
 p {
     font-size: $font-size;
     margin-bottom: $text-margin;
     margin-top: 0;
-    font-family: $serif-font-family;
+    font-family: $sans-font-family;
 }
 
 .main {
@@ -33,3 +33,11 @@ p {
     min-height: 100vh;
 }
 
+.content {
+    border: 1px solid $content-background-color;
+    border-radius: 16px;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    padding: 2em;
+    background-color: $content-background-color
+}

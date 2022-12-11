@@ -10,7 +10,7 @@ Social:
     - title: Link till sidans github repo.
       url: https://github.com/CallMePurre/portfolio2/
       icon: fab fa-github
-      # Innan
+    # Innan
     - title: Link till twitter.
       url: https://twitter.com/CallMePurre
       icon: twitter

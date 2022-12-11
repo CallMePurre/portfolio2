@@ -15,7 +15,6 @@
 }
 
 .grid-item {
-    border: 1px solid rgb(179, 178, 178);
     position: relative;
 
     overflow: hidden;
@@ -33,7 +32,7 @@
 }
 
 .grid-item:hover {
-    box-shadow: 0 0 15px 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 15px 10px $content-hover;
 }
 
 

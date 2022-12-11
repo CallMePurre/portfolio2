@@ -24,7 +24,7 @@
 }
 
 .sidebar-content:hover {
-    background-color: rgba(51, 51, 51, 0.7);
+    background-color: $content-hover;
     
     h3 {
         color: rgb(255, 255, 255);

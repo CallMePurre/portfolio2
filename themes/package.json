@@ -6,11 +6,20 @@
   "directories": {
     "example": "example"
   },
-  "scripts": {
-    "lint": "stylelint \"**/*.scss\"",
-    "style": "sass purres/scss/style.scss purres/css/style.css --no-source-map",
-    "style-min": "sass purres/scss/style.scss purres/css/style.min.css --no-source-map --style compressed"
+  
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "lint": "stylelint \"**/*.scss\"",
+      "watch": "sass purres/scss/style.scss:purres/css/style.css purres/scss/style-dark.scss:purres/css/style-dark.css --no-source-map --watch",
+      "watch-min": "sass purres/scss/style.scss:purres/css/style.min.css purres/scss/style-dark.scss:purres/css/style-dark.min.css --no-source-map --watch --style compressed",
+      "style": "npm run style-light && npm run style-dark",
+      "style-min": "npm run style-light-min && npm run style-dark-min",
+      "style-dark": "sass purres/scss/style-dark.scss purres/css/style-dark.css --no-source-map",
+      "style-dark-min": "sass purres/scss/style-dark.scss purres/css/style-dark.min.css --no-source-map --style compressed",
+      "style-light": "sass purres/scss/style.scss purres/css/style.css --no-source-map",
+      "style-light-min": "sass purres/scss/style.scss purres/css/style.min.css --no-source-map --style compressed"
   },
+  
   "keywords": [],
   "author": "",
   "license": "ISC",
