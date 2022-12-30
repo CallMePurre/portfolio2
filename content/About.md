@@ -4,7 +4,7 @@ Description: Om sidan
 ---
 
 Om sidan
-==================
+-----------------------
 
 På denna sida använder jag lite olika tekniker för att designa sidan.
 

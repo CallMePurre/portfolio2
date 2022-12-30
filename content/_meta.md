@@ -1,5 +1,5 @@
 ---
-Logo: image/hammarby.png
+Logo: image/hammarby.png?w=80
 Tagline: My portfolio.
 Social:
     # Innan

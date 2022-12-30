@@ -4,47 +4,82 @@
 
     a,
     p,
-    h1 {
+    h2 {
         color: $font-color-alt;
         text-decoration: none;
     }
 }
 
-.header,
+.header {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
 .site-header {
     display: flex;
     justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    padding: 0 $text-margin;
+
+    :hover {
+        text-decoration: underline;
+    }
+}
+
+.profileimg {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    img {
+        padding: $text-margin;
+        border: 2px solid $header-footer-color;
+        background-color: $header-footer-color;
+        border-radius: 20px;
+    }
+}
+
+.profilemain {
+    display: flex;
+}
+
+.profiletext {
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 2rem;
 }
 
 .hidden {
     display: none;
 }
 
-.logo img {
-    position: relative;
-    top: 50%;
-    transform: translateY(-50%);
-    width: 200px;
-}
-
 .title {
     padding: 0 2em;
+
+    h2 {
+        font-size: 1.6rem;
+        text-transform: uppercase;
+        margin: 0;
+    }
 }
 
 .nav {
     ul {
-        margin: 0;
+        margin-right: $text-margin;
+        padding: 0;
     }
 
     li {
-        height: 100%;
-        display: block;
+        text-transform: uppercase;
     }
 
     a {
         color: #fff;
         text-decoration: none;
-        font-size: 1.5rem;
+        font-size: 1rem;
+        font-weight: 600;
     }
 
     a:hover {
@@ -54,4 +89,10 @@
 
 .active a {
     color: $li-active-hover-color;
+}
+
+@media screen and (max-width: 1150px) {
+    .header {
+        display: block;
+    }
 }

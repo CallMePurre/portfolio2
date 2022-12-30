@@ -322,8 +322,24 @@ h1 {
   font-family: "Roboto Slab", serif;
 }
 
+h2 {
+  font-size: 2rem;
+  margin-bottom: 3.08rem;
+  font-family: "Roboto Slab", serif;
+}
+
+a {
+  font-family: "Roboto Slab", serif;
+}
+
 h3 {
-  font-size: 1.5em;
+  font-size: 1.5rem;
+  margin-bottom: 1.54rem;
+  font-family: "Montserrat" sans-serif;
+}
+
+h4 {
+  font-size: 1.3rem;
   margin: 0;
   font-family: "Montserrat" sans-serif;
 }
@@ -358,43 +374,75 @@ p {
 }
 .header a,
 .header p,
-.header h1 {
+.header h2 {
   color: #fff;
   text-decoration: none;
 }
 
-.header,
+.header {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
 .site-header {
   display: flex;
   justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  padding: 0 1.54rem;
+}
+.site-header :hover {
+  text-decoration: underline;
+}
+
+.profileimg {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.profileimg img {
+  padding: 1.54rem;
+  border: 2px solid #0a0a0a;
+  background-color: #0a0a0a;
+  border-radius: 20px;
+}
+
+.profilemain {
+  display: flex;
+}
+
+.profiletext {
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 2rem;
 }
 
 .hidden {
   display: none;
 }
 
-.logo img {
-  position: relative;
-  top: 50%;
-  transform: translateY(-50%);
-  width: 200px;
-}
-
 .title {
   padding: 0 2em;
 }
-
-.nav ul {
+.title h2 {
+  font-size: 1.6rem;
+  text-transform: uppercase;
   margin: 0;
 }
+
+.nav ul {
+  margin-right: 1.54rem;
+  padding: 0;
+}
 .nav li {
-  height: 100%;
-  display: block;
+  text-transform: uppercase;
 }
 .nav a {
   color: #fff;
   text-decoration: none;
-  font-size: 1.5rem;
+  font-size: 1rem;
+  font-weight: 600;
 }
 .nav a:hover {
   color: #3568f5;
@@ -404,6 +452,11 @@ p {
   color: #3568f5;
 }
 
+@media screen and (max-width: 1150px) {
+  .header {
+    display: block;
+  }
+}
 /* report.scss */
 .grid {
   display: grid;
