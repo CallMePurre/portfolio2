@@ -1,4 +1,4 @@
-Utvärdera webbplatsers laddningstid och användbarhet
+Utvärdera designprinciper som webbplatser använder sig av
 =======================
 
 Urval
