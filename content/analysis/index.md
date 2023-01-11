@@ -24,3 +24,10 @@ Template: technologies
             <img src="%base_url%/image/principles.jpg?q=40" alt="principles">
         </a>
 </div>
+
+<div class="grid-item desweb">
+        <a href="analysis/11_design-och-webbplatser">
+            <h2>Design och webbplatser</h2>
+            <img src="%base_url%/image/principles.jpg?q=40" alt="principles">
+        </a>
+</div>
